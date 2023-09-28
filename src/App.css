@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+#root {
+display: flex;
+justify-content: center;
+}
+body{
+    color: #640d14;
+    font-family: 'DM Sans', sans-serif;
+}
+#userChoice{
+width: 400px;
+height: 380px;
+
+}
+#computerChoice{
+width: 400px;
+height: 380px;
+}
+
+.lulu{
+display: flex;
+gap:600px
+}
+
+.bequinha{
+
+}
+.btns{
+    display: flex;
+
+    justify-content: space-between;
+}
+.treasure{
+    text-align: center;
+    margin-top: 100px;
+    color: #640d14;
+}
+.bm{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #640d14;
+}
+.title{
+    text-align: center;
+    color: #640d14;
+}
+button{
+   background:#ad2831;
+   color: #ffffff;
+   border:none;
+   border-radius: 15px;
+   width: 80px;
+   height: 30px;
+
+}
